@@ -10,7 +10,7 @@ const divideArray = (numbers) => {
     console.log("Even numbers:");
     !evenNums.length ?  console.log("None") : console.log(evenNums.sort());
     console.log("Odd numbers:");
-    oddNums == "" ?  console.log("None") : console.log(oddNums.sort());
+    !oddNums.length ?  console.log("None") : console.log(oddNums.sort());
 }
 
 let nums = [4, 2, 9, 1, 8];
