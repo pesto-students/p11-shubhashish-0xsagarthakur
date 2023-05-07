@@ -5,7 +5,7 @@ const divideArray = (numbers) => {
     let oddNums = [];
 
     for(let i=0; i<numbers.length; i++){
-       numbers[i]%2==0 ? evenNums.push(numbers[i]) : oddNums.push(numbers[i]);
+       numbers[i]%2===0 ? evenNums.push(numbers[i]) : oddNums.push(numbers[i]);
     }
     console.log("Even numbers:");
     evenNums == "" ?  console.log("None") : console.log(evenNums.sort());
