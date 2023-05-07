@@ -8,7 +8,7 @@ const divideArray = (numbers) => {
        numbers[i]%2===0 ? evenNums.push(numbers[i]) : oddNums.push(numbers[i]);
     }
     console.log("Even numbers:");
-    evenNums == "" ?  console.log("None") : console.log(evenNums.sort());
+    !evenNums.length ?  console.log("None") : console.log(evenNums.sort());
     console.log("Odd numbers:");
     oddNums == "" ?  console.log("None") : console.log(oddNums.sort());
 }
